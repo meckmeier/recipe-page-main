@@ -1,0 +1,85 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:"Outfit" , sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(rgb(250, 217, 223), white);
+    color: #333;
+    font-size: 16px;
+
+}
+main {
+    max-width: 800px;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #fff;
+    padding: 0px;
+    border-radius: 8px;
+}
+
+h1{
+    font-family: "Young+Serif", serif;
+    font-size: 2.5em;
+
+}
+h2{
+    font-family: "Young+Serif", serif;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color:hsl(14, 45%, 36%);
+
+}
+h3{
+
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: hsl(332, 51%, 32%);
+}
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}   
+ul, ol{
+    padding-left: 20px;
+ 
+}   
+
+li{
+   padding-left: 2rem;
+    margin-bottom: .5em;
+}
+
+table{
+    table-layout: fixed;
+    width: 10em 10em;
+    margin:20px 20px;
+}
+tr td {
+   border-bottom: 1px dotted rgb(80, 77, 77);
+}
+
+.card{
+    padding: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 1em;
+}
+.preptime{
+    margin-left: 2rem;;
+}
+.value{ 
+    color:hsl(14, 45%, 36%);
+    width: 10em;
+}
+.label{
+    width: 10em;
+}
